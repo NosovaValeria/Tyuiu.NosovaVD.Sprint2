@@ -34,7 +34,7 @@ namespace Tyuiu.NosovaVD.Sprint2.Task6.V8
             string res;
             if ((m < 1 || m > 12) || (n<1 || n > 31))
             {
-                res = "Введено неверное значение";
+                res = "Введено неверное значение.";
             }
             else
             {
@@ -43,9 +43,9 @@ namespace Tyuiu.NosovaVD.Sprint2.Task6.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(res);
+            Console.WriteLine(res); 
 
             Console.ReadKey();
         }
-    }
+    } 
 }
